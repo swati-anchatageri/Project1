@@ -23,16 +23,16 @@ function App() {
           </div>
           <div className='space'>
           <img src={pass} alt="password" className='email'/>
-          <input type="password" placeholder='********' className='name'/>
+          <input type="password" placeholder='Password' className='name'/>
           </div>
           <div className='submit'>
           <button>Sign In</button>
           </div>
-          <div>
+          {/* <div>
             <p className='link'>
-              <a href='#'>Forgot password</a> or <a href='#'>Sign Up</a>
+              <a>Forgot password</a> or <a> Sign Up</a>
             </p>
-          </div>
+          </div> */}
       </div>
       </div>
       </div>
